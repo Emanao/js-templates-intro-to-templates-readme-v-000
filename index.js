@@ -23,7 +23,7 @@ function createCommenterLabel(commenter) {
     commenterName.innerHTML = commenter;
     commenterLabel.appendChild(commenterName);
     commenterDiv.appendChild(commenterLabel);
-    return commenterLabel;
+    return commenterDiv;
 }
 
 function postNewComment(body, commenter) {
